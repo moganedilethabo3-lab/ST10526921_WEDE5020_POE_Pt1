@@ -1,5 +1,7 @@
 # Introduction to Web Development POE
 <img width="400" height="375" alt="web development expo image" src="https://github.com/user-attachments/assets/7b93f604-f5ff-4300-8644-10da79ad4790" />
+<h1>Author</h1>
+<li type="square"> Lethabo Moganedi
 
 
 <h1> Part 1 </h1>
@@ -44,17 +46,42 @@ The following wireframes of the website are used to illustrate the layout and ov
 
 <li>Site Map </li>
   <li type="circle"> An overview and navigation of how the website works and how to navigate from one web page to the next. </li>
-<img width="575" height="550" alt="SITE-MAP " src="https://github.com/user-attachments/assets/b93759e8-e659-4a9c-a499-741a2b81ca9b" />
+<img width="525" height="550" alt="SITE-MAP " src="https://github.com/user-attachments/assets/b93759e8-e659-4a9c-a499-741a2b81ca9b" />
+
+</ul>
+<h3>Tools used</h3>
+<ul>
+  <li> Visual Studio </li>
+  <li> Web broswer (Edge) </li>
+  <li>Chat GPT
+  <li> Chat GPT was used to find sources on the internet relevant to the organization's information that could not be easily found, as well information about website domains and hosting.Hence,it has been referenced correctly and acknowledged of its assistance. </li></li>
+  
+</ul>
+<h3>Website Features</h3>
+<ul>
+  <li>Home Page</li>
+<li>About Us</li>
+<li>Contact Us</li>
+<li>Available adoptions</li>
+<li>Donations</li>
+<li>Volunteer</li> 
+<li>Gallery </li>
+</ul>
+
+<h3>Website Functionality</h3>
+<ul>
+  <li> Volunteer registration</li> 
+<li> Adoption request/ applications</li> 
+<li>Online Donation</li> 
+<li> Enquiries form </li>
+<li>Google Maps location</li>
 
 </ul>
 <h3> Conclusion of Part 1</h3>
 Part 1 was more about the planning and understanding of how the website can result to look like once it is complete. As well as doing research on the organization you want the website to revolve around. In terms of coding the website, in part 1 only html was used to create the simple structure of the website without any CSS for styling and no JavaScript used for the functionality of features on the website. 
 
+
 <h2>References</h2>
-<h3>Note:</h3>
-In terms of finding information about website domains and hosting ChatGpt was used locate the correct website so it has been referenced for its assistance.
-Thank you.
-<br>
 <ul>
   <li type="square"> OpenAI (2026) ChatGPT [Large language model]. Available at: ChatGPT (Accessed: 08 August 2026).</li>
   <li type="circle">Maps, G., n.d. Google Maps Platform. [Online] Available at: https://mapsplatform.google.com/?utm_source=chatgpt.com[Accessed 10 August 2026].</li>
