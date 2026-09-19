@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+        
+        .paragraph{
+         text-align: left;
+        
+        }
+        .align{
+         flex-direction: row;
+         display: flex;
+         gap:25px;
+         align-items: center;
+        
+        }
+        .dog{
+         position: relative;
+         top:-15px;
+        
+        }
+        .socials{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .instagram{
+            max-width: 75px;
+            object-position: left;
+            object-fit: contain;
+        }
+        .facebook{
+            max-width: 48px;
+            object-position: right;
+            object-fit: contain;
+        }
+        </style>
         <title>
             Home Page
         </title>
+        <link rel="stylesheet" href="css/styles.css">
       
     </head>
      <!--The following is the header navigation links for the other web pages-->
-        <header> 
-            <img src="logo.png" alt="organisation logo" height="170px" width="150px">
+        
+    <body>
+         <header> 
+            <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
+           
             <a href="about_us.html">About Us</a>
             <a href="get_involved.html">Get involved</a>
             <a href="gallery.html">Gallery</a>
             <a href="contact.html">Contact us</a>
+           
         
             
-        </header>
-    <body>
+        </header> 
+
+        <main>
+
         <h1> 
             Paw R Us SA
         </h1>
 
         <h2> Introduction to Paw R Us SA </h2>
         <!--The introduction image-->
-        <img src="home.png" alt="Home page image introduction" height="310px" width="285px">
+        <div class="align">
+    
        <!--The following is an introduction explaining who are Paw R Us SA for people who dont know the NPO-->
         <br>
+        <h4 class="paragraph">
         Paw R Us SA is a pet welfare organisation that was founded in 2018 by a group of pet owners. Our organisation is an animal-focused organisation that mainly operates its activities online through a Facebook account. 
         <br>
         The presence of Paw R Us SAs can be felt online through many social media platforms. 
@@ -36,28 +79,59 @@
         <li type="square">Secondly, to seek out for donors and sponsors who can help support fight against the financial constraints of the animals that prevent them from receiving care and a good upbringing.</li>
 
         </ul>
-        <br>
+        </h4>
+    
+        <div class="dog">
+        <img src="Web Images/home.png" alt="Home page image introduction" 
+        srcset="
+        Web Images/home.jpg 480w,
+        Web Images/home.jpg 800w,
+        Web Images/home.jpg 1200w"
+        sizes="
+        (max-widt:600px)90vw,
+        (max-width:900px) 45vw">
+        </div> 
+
+        </div>
+
         <!--What can be expected in the organization website-->
         <h3> What you can expect to find on the website: </h3>
-        <br>
-        <ul>
+        <ul> <h4>
         <li type="square">Consistent updates about our activities</li>
         <li type="square">Open days to visit the animals </li>
         <li type="square">Updates about animals up for adoption</li> 
         <li type="square">Animal awareness fundraising </li>
-        
+        </h4>
         </ul>
-        <br>
+        
 
+        <h4>
         Over the years, the organisation has been able to continue its services for homeless animals through the various help from donations and volunteers around the community.
         <br>
         And we hope to continue to do so for the next coming years through the help of the public and donors willing to continue this journey with us and our animals. 
         <br>
+        </h4>
+
         <!--The following are links for users to use if they want to folow the NPO on other social media platforms, to remin connected to the organization's latest activities-->
         <h3> Follow us more on the following social media platforms to remain in contact with us even more. </h3>
-        <a href="https://www.facebook.com/PawsRUS.SA/" alt="Facebook logo" height="135px" width="100px"> <img src="facebook.png"> </a>
-        <a href="https://www.instagram.com/pawsrus_sa/" alt="instagram logo" height="105px" width="100px"><img src="instagram.png"></a>
+        
+        <div class="socials">
+        <a href="https://www.facebook.com/PawsRUS.SA/" alt="Facebook logo" height="30px" width="20px"> <img src="Web Images/facebook.png" class="facebook"> </a>
+        <a href="https://www.instagram.com/pawsrus_sa/" alt="instagram logo" height="30px" width="20px"><img src="Web Images/instagram.png" class="instagram"></a>
+        </div>
 
+     </main>
+        <!--The above are footer navigation links for the other web pages-->  
+      <footer>
+       
+     <a href="index.html">Back to Top</a>
+     <a href="about_us.html">About Us</a>
+     <a href="get_involved.html">Get involved</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="contact.html">Contact us</a>
+          
+       </footer>
+ 
 
 
 
@@ -67,15 +141,7 @@
     </body>
 
 
-    <footer>
-       
-     <a href="index.html">Back to Top</a>
-     <a href="about_us.html">About Us</a>
-     <a href="get_involved.html">Get involved</a>
-     <a href="gallery.html">Gallery</a>
-     <a href="contact.html">Contact us</a>
-        
-    </footer>
+   
   <!--The above are footer navigation links for the other web pages-->
 
 </html>

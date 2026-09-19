@@ -4,163 +4,251 @@
         <title>
             Home Page
         </title>
+      <link rel="stylesheet" href="css/styles.css">
+      <style>
+        .statement{
+            flex:1;
+            padding:10px;
+            border-radius: 20px;
+            text-align: left;
+            
+        }
+        .adopt-section{
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 35px;
+           max-width: 1200px;
+           margin: 35px auto;
+        } 
+        .adopt-section, .statement{
+            flex:1;
+            padding: 10px;
+            text-align: center;
+        }
+        .statement img{
+            max-width: 100%;
+            height:auto;
+            border-radius: 20px;;
+        }
+        .statement p {
+            line-height: 1.5;
+        }
+        .statement h4{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+         .statement h3{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .align{
+         flex-direction: row;
+         display: flex;
+         gap:25px;
+         align-items: center;
+        }
+        
+        .form{
+           display: flex;
+            justify-content: center;
+            align-items: stretch;
+            width:100%;
+           margin: 35px auto;
+           
+        }
+       
+        .form-register{
+            text-align: center;
+            background-color: white;
+        }
+        
+        </style>  
     </head>
        <!--The following are header navigation links for the other web pages-->
     
-        <header> 
-            <img src="logo.png" alt="organisation logo" height="170px" width="150px">
+    <body>
+         <header> 
+          <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
+
             <a href="about_us.html">About Us</a>
            <a href="index.html">Home Page</a>
             <a href="gallery.html">Gallery</a>
             <a href="contact.html">Contact us</a>
             
         </header>
-    <body>
+        <main>
         <h1>
             Paw R Us SA
         </h1>
         <!--Adoption section of the website-->
-        <h2> Every Animal deserves a place to call home. </h2>
-        <h3> Why you should adopt a dog </h3>
-        <p>One of Paw R Us SA's core missions is to provide a safe and loving environment for animals in need. 
-        The organisation believes that every animal deserves a place to call home, and we are committed to making that a reality for as many animals as possible.</p>
+        <h2 style="text-align: center;"> Every Animal deserves a place to call home. </h2>
         
-        <p>
-            Though some dogs have experienced neglect, abandoment and terribles past it does not mean their past should define their future. Because through patience, love an immense kindness the lives of these dogs could be changed for the better, granting them the opportunity to be loved and given a second chance in life. 
-        </p>
-        <br>
-        <img src="adopt(1).jpe" alt="food donations" height="300px" width="285px">
-        <img src="adopt me(1).jpe" alt="food donations" height="300px" width="285px">
-     <img src="dopt me(2).jpe" alt="food donations" height="300px" width="285px">
+        <section class="adopt-section">
+        
+            <div class="statement">
+            <img src="Web Images/adopt me(1).jpe" alt="food donations" height="300px" width="285px">
+            </div>
 
-        <p>
-            Thus, when you adopt a dog you dont just give a home to stay but a second chance to experience the goodness in living. Hence, use that power to create opportunities for these dogs and adopt today. Give a deserving dog a family it has long been waiting for and a new preview of life that they have never experienced before. <b>Become a dog's Hero and adopt one today!</b>
-        </p>
-        <br>
+            <div class="statement">
+            <h3> Why you should adopt a dog </h3>
+            <h4>
+            <p>One of Paw R Us SA's core missions is to provide a safe and loving environment for animals in need. 
+            The organisation believes that every animal deserves a place to call home, and we are committed to making that a reality for as many animals as possible.
+            </p>
+            <p>
+            Though some dogs have experienced neglect, abandoment and terribles past it does not mean their past should define their future. Because through patience, love an immense kindness the lives of these dogs could be changed for the better, granting them the opportunity to be loved and given a second chance in life.
+            <h3>Become a dog's Hero and adopt one today!<h3>
+            </p>
+            </h4>
+            </div>
+
+          <div class="statement">
+         <img src="Web Images/dopt me(2).jpe" alt="food donations" height="300px" width="285px">
+         </div>
+        </section>     
+     
+    
         <!--Volunteer section of the website-->
-        <h2>Become part of the Paw R Us SA family!</h2>
-        <img src="volunteer.jpe" alt="volunteer" height="255px" width="220px">
-        <p>There are various ways in becoming a memeber of the Paw family. But one of the most common ways many of the public have become part of us is through volunteering.</p>
-        <br>
-      
-      <p>For the past years the organisation has relied heavily on the kindess and dedication of many volunteers who have given their time to assist grow and support the animals at Paw R Us SA.
-        And it because of our volunteers that today the organisation remains to continue its job to rescue and care for animals in need of our services.</p>
-        <p> <h3>When volunteering at Paw R Us SA you should expect to complete the following tasks as a volunteer at Paw R Us SA:</h3> </p>
-        <img src="volunter(1).jpe" alt="examples of volunteers volunteering" height="255px" width="220px">
-        <img src="volunteer(2).jpe" alt="examples of volunteers volunteering" height="255px" width="220px">
-        <br>
+        <h2> Become part of the Paw R Us SA family! </h2>
 
-        <ul>
+        <section class="align">
+            <div class="statement">
+           <img src="Web Images/volunteer.jpe" alt="volunteer" height="375px" width="385px">
+          </div>
+
+          <div class="statement"> <h4>
+          <p>For the past years the organisation has relied heavily on the kindess and dedication of many volunteers who have given their time to assist grow and support the animals at Paw R Us SA.
+            There are various ways in becoming a memeber of the Paw family. But one of the most common ways many of the public have become part of us is through volunteering.
+           And it because of our volunteers that today the organisation remains to continue its job to rescue and care for animals in need of our services.</p>
+            </h4> </div>
+
+        </section>
+
+        <p> <h2> Paw R Us Volunteer Tasks </h2> 
+        <div class="align">
+        <img src="Web Images/volunteer(2).jpe" alt="examples of volunteers volunteering" height="295px" width="300px">
+    
+        <ul> <h4>
             <li type="circle"> Assisting with animal care</li>
-              <li type="circle"> Help raise funds for the organisation</li>
-                <li type="circle"> Promote animal-welare awareness</li>
-                
+            <li type="circle"> Help raise funds for the organisation</li>
+            <li type="circle"> Promote animal-welare awareness</li>
+          </h4>      
         </ul> 
-        <br>
-        And if you too would like to join the family like many other people in the community please fill in the registration form below.
-        <!--Registration section of the website for potential volunteers, donors or people who have questions/enquiries about the organization-->
-        <h2> <u>
-            Registration form 
-            </u>
-        </h2>
-
-     Fill in the following registration for any of the following reasons listed below:
-     <br>
-     <ol>
+        </div>
+        
+         <h4>Fill in the following registration for any of the following reasons listed below:
+         </h4>
+            
+           <ol> <h4>
           <li type="circle"> Booking an adoption day</li>
             <li type="circle"> Applying to Volunteer at Paw R Us SA </li>
             <li type="circle"> Enqiry </li>  
-              <li type="circle"> Donation appointment</li>
-     </ol>
-     <br>
-     <!--The following is a code used to create forms using html in a website-->
-     <form action="#" method="post">
-        <label for="name"> Individual Name: </label>
-        <input type="text" id="name" name="name" required>
-        <br>
+            <li type="circle"> Donation appointment</li>
+            </h4> </ol>
+        <!--Registration section of the website for potential volunteers, donors or people who have questions/enquiries about the organization-->
+        
 
-        <label for="srname"> Individual Surname: </label>
-        <input type="text" id="surname" name="surname" required>
-        <br>
-
-        <label for="phone"> Phone Number: </label>
-        <input type="tel" id="phone" name="phone" required>
-        <br>
-
-        <label for="email"> Email Address: </label>
-        <input type="email" id="email" name="email" required>
-        <br>
-
-      <label for="day"> Booking appointment day: </label>
-      <input type="date" id="day" name="day" required>
-       <br>
-
-       <label for="reason"> Reason for registration: </label>
-     <input type="text" id="reason" name="reason" required>
-       <br>
-
-       <p>If your reason to complete the registration form was becuase you want to volunteer at Paw R Us SA, please complete the following: </p>
-       <br>
-       
-       <label for="volunteer"> Reason why you want to volunteer with us: </label>
-        <input type="text" id="volunteer" name="volunteer" required>
-        <br>
-     </form>
-     <br>
-
-        <button type="submit" alt="button used to submit registration forms" height="50px" width="135px">Submit Registration</button>
 
         <!--Donation section of the website-->
         <h2>
             Become  Donor Today!
 
         </h2>
-        <p>Another one of Paw R Us SA's reason why we have come so far with our work is becuase of the wonderful donation made by our blessed donaors and sponsors that have helped create a meaningful difference in the lives of our Paw animals.
-            Every Donation made by has made a significant impact on our ability to care for these wonderful animals and has been very reassuraing for the organisations that hope still remains for our journey to continue rescuing animals 
-        </p>
+
+        <div class="align">
+        <img src="Web Images/donate.jpe" alt="food donations" height="300px" width="285px">
+        <img src="Web Images/donate(2).jpe" alt="food donations" height="300px" width="285px">
+        <img src="Web Images/donate(3).jpe" alt="food donations" height="300px" width="285px">
+        </div>
+
+        <h4> <p>If you have been waiting to donate and are willing to make a difference in the life of the animlas regardlesss the size of the donation you have coming to the correct section of the web page. 
+        This part of the web page discusses how potential donors can make donations to the organisation through different alternatives and methods that they may find best suitable for their situation. </p>
+        </h4>
         
 
-        <p>If you have been waiting to donate and are willing to make a difference in the life of the animlas regardlesss the size of the donation you have coming to the correct section of the web page. 
-        This part of the web page discusses how potential donors can make donations to the organisation through different alternatives and methods that they may find best suitable for their situation. </p>
-        <br>
-
-        <img src="donate.jpe" alt="food donations" height="300px" width="285px">
-        <img src="donate(2).jpe" alt="food donations" height="300px" width="285px">
-        <img src="donate(3).jpe" alt="food donations" height="300px" width="285px">
         <!--QR code to scan to pay electronic bank donations-->
-        <a href="https://pawsrussa.weebly.com/uploads/2/4/9/6/24967799/4159783.jpg">Click to scan QR code to donate</a>
-        <br> 
+        <a href="https://pawsrussa.weebly.com/uploads/2/4/9/6/24967799/4159783.jpg">
+            <h4> Click to scan QR code to donate </h4> </a>
+        
 
-        <h3>
-            Acceptable ways to donate
-        </h3>
-
-
-        <ul>
-            <li type="circle"> Physically deliver animal necessities using the location link </li>
-            <li type="circle">Bank Transfer donation</li>
-            <li type="circle"> Sponsor an animal(s) </li>
-               <li type="circle"> Indrive donations </li>
-            
-        </ul>
-
-        <b>Note:</b>
-        Regarding the bank tranfer please do confirm the banking details with Paw R Us SA by contacting via the mentioned contacting alternatives on the "contact web page" to avoid scaming of money and to ensure the money is being transfered to.
-        Thank you. 
+     
+        <br>
         <br>
 
-  
-    </body>
-    <br>
+    
 
-    <footer>
+           <section class="form">
+               <div class="form-register">
+              <h2> <u>
+              Registration form 
+              </u>
+             </h2>
+         
+
+         
+             <!--The following is a code used to create forms using html in a website-->
+             <h4>
+             <form action="#" method="post">
+              <label for="name"> Individual Name: </label>
+             <input type="text" id="name" name="name" required>
+              <br>
+              <br>
+
+              <label for="srname"> Individual Surname: </label>
+             <input type="text" id="surname" name="surname" required>
+              <br>
+              <br>
+
+              <label for="phone"> Phone Number: </label>
+               <input type="tel" id="phone" name="phone" required>
+              <br>
+               <br>
+
+              <label for="email"> Email Address: </label>
+               <input type="email" id="email" name="email" required>
+             <br>
+              <br>
+
+              <label for="day"> Booking appointment day: </label>
+              <input type="date" id="day" name="day" required>
+              <br>
+              <br>
+
+               <label for="reason"> Reason for registration: </label>
+               <input type="text" id="reason" name="reason" required>
+          
+         
+
+               <p>If your reason to complete the registration form was becuase you want to volunteer at Paw R Us SA, please complete the following: </p>
+               
+       
+              <label for="volunteer"> Reason why you want to volunteer with us: </label>
+              <input type="text" id="volunteer" name="volunteer" required>
+             <br>
+             <br>
+              <button type="submit" alt="button used to submit registration forms" height="50px" width="135px" style="justify-content: center; background-color: plum;">Submit Registration</button>
+
+               </form>
+               </h4>
+              </div>
+            </section>
+        
+       </main>
+
+        
+       <footer>
          <a href="get_involved.html">Back to Top</a>
           <a href="about_us.html">About Us</a>
            <a href="index.html">Home Page</a>
             <a href="gallery.html">Gallery</a>
             <a href="contact.html">Contact us</a>
             
-    </footer>
-    <!--The above are footer navigation links for the other web pages-->
+       </footer>
+       <!--The above are footer navigation links for the other web pages-->
+  
+    </body>
+    
+
 
 </html>
