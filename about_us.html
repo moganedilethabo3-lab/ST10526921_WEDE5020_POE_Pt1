@@ -5,21 +5,50 @@
             About Paw R Us SA
 
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
        <link rel="stylesheet" href="css/styles.css">
        <style>
-         .paragraph{
-         text-align: left;
-        
-        }
-        .team{
-            text-align: left;
-        }
-        .align{
+         .align{
          flex-direction: row;
          display: flex;
          gap:25px;
+         padding:15px;
          align-items: center;
+         flex-wrap: wrap;
+         justify-content: center;
         
+        }
+        .the-team{
+            flex-direction: row;
+         display: flex;
+         gap:25px;
+         padding:15px;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+
+        }
+        .the-team ul{
+           width: fit-content;
+           margin:0 auto; 
+           text-align: center;
+           list-style-position: inside;
+        }
+        .the-team img{
+            max-width: 900px;
+            height: auto;
+            width:100%;
+        }
+        .the-team li{
+            align-items:center;
+              justify-content: center;
+               display: flex;
+        }
+        .align img{
+            max-width: 300px;
+            height: auto;
+            width:100%;
         }
         .image{
          position: relative;
@@ -36,7 +65,7 @@
             display: flex;
             justify-content: center;
             align-items: stretch;
-            gap: 25px;
+            gap: 15px;
            max-width: 1100px;
            margin: 35px auto;
         }
@@ -56,7 +85,8 @@
             flex-direction: row;
             justify-content: center;
             align-items: stretch;
-            gap:25px;
+            gap:15px;
+            padding:15px;
             max-width: 1200px;
             margin: 50px auto;
             
@@ -75,9 +105,11 @@
         }
         .media-align iframe{
             width:100%;
-            height: 315px;
+            height: auto;
             max-width: 560px;
-            border-radius: 10px;}
+            border-radius: 10px;
+            aspect-ratio: 16 /9;
+        }
 
         
        
@@ -106,7 +138,7 @@
         </header>
     <main>
 
-        <h1>
+        <h1  style="text-align: center;">
             Paw R Us SA
         </h1>
         
@@ -153,7 +185,7 @@
 
         
         
-        <div class="align">
+        <div class="the-team">
 
         <div class="image">
        <img src="Web Images/The team.png" alt="A team image" 
@@ -162,45 +194,51 @@
         Web Images/The team.png 800w,
         Web Images/The team.png 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw>
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw" height="355px" width="335px">
        </div>
 
-        <h4>
+        
 
-        <div class="team">
-        <p>
-        This team is the backbone of the organization and the individuals who have allowed the journey of the organization to remain active and dedicated to its services in thecommnity
-        Every team member's work or role in the organization is as significant as any other individual's role because each member's contribution is very crucial for the growth of the organization and its success.</p>
-       <p>
-        The team at Paw R Us SA is a team of dedicated and hardworking individuals that has meant alot to the organization, not simply because they form part of the Paw R Us SA team but because they have assisted in building the foundation of the organizaion from the begining of the project until today.Hence their efforts are widely recognised and appreciated by the organization.It is because of our team that Paw R Us SA has come closer to reacing its goal each year and has been able to accomplish all its achievements. 
-       Therefore the team is indeed a significant part of the organisation and its sucess.</p>
+        <div style="text-align: left;">
+        
+        <h2 style="text-align: center;">The backbone of the organization is the Paw R Us team .</p> </h2>
+        <h4>
+        <p style="text-align: center;">Every team member's work or role in the organization is a contribution to the organization's success.</p>
+       <p style="text-align: center;">
+        The Paw R Us SA team is a team of dedicated and hardworking individuals that has meant alot to the organization, whom have assisted in building the foundation of the organizaion.
+        It is because of our team that Paw R Us SA has come closer to reacing its goal each year and has been able to accomplish all its achievements. 
+       </p>
+        
+         <p> <h3 style="text-align: center;">The following is a list of  the organization's team departments:</h3> </p>
+        <!--List of team departments-->
+
+        <h4>
+        <ul style="justify-content: center;">
+             <li type="circle">Event planners</li>
+            <li type="circle">  Animal rescue team</li>
+            <li type="circle">Donation support team </li>
+            <li type="circle">Animal cruelity Awareness team</li>
+            <li type="circle">Community engagement tem</li>
+            <li type="circle">Volunteer recruitment team</li>
+            
+
+        </ul>
+        
+        </h4>
+
+
        </p>
        </div>
         </h4>
         </div>
 
-       <br> 
-        <h4> <p >The following is a list of  the organization's team departments:
-        <!--List of team departments-->
-
-        <ul>
-            <li type="circle">  Animal rescue team</li>
-            <li type="circle">Donation support team </li>
-            <li type="circle">Animal cruelity Awareness team</li>
-            <li type="circle">Community engagement tem</li>
-            <li type="circle">Event planners</li>
-            <li type="circle">Volunteer recruitment team</li>
-            
-
-        </ul>
-        <br>
-        </p>
-        </h4>
+       <br>
+       <br>
 
         <!--Paw R Us SA team memeber images-->
         
-        <h2>Paw R Us SA Team Members </h2>
+        <h2 style="text-align: center;">Paw R Us SA Team Members </h2>
         <br>
         <div class="align">
         <img src="Web Images/team member(1).jpg" alt="image of team member" 
@@ -209,8 +247,8 @@
         Web Images/team member(1).jpg 800w,
         Web Images/team member(1).jpg 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw>
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw">
         
         <img src="Web Images/team member(2).jpe" alt="image of team member" 
         srcset="
@@ -218,7 +256,7 @@
         Web Images/team member(2).jpg 800w,
         Web Images/team member(2).jpg 1200w"
         sizes="
-        (max-widt:600px)90vw,
+        (max-width:600px)90vw,
         (max-width:900px) 45vw", 30vw >
         
         
@@ -228,20 +266,20 @@
         Web Images/team member(3).jpg 800w,
         Web Images/team member(3).jpg 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw>
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw">
         
         
         </div>
         <!--Paw R Us SA successful adoption stories-->
         <br>
-        <h2>Paw R Us SA Successful stories</h2>
-        <h4> <p>
+        <h2  style="text-align: center;">Paw R Us SA Successful stories</h2>
+        <h4> <p  style="text-align: center;">
         Finding homes for our furry family has never been something easy but each time we are able to give a dog a chance at a second in life, to start afresh and the opportunity to feel loved again we feel at ease and content that all our hardwork has not gone to waste becuase <b>Finally our furry family has found a ne family to call its own.!</b> 
         </p> </h4>
         <br>
         
-        <h3>Congratulations</h3>
+        <h1  style="text-align: center;">Congratulations</h1>
         
         <div class="align">
         <img src="Web Images/success(1).jpe" alt="Successful dogs" 
@@ -250,8 +288,8 @@
         Web Images/success(1).jpe 800w,
         Web Images/success(1).jpe.jpg 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw>
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw">
 
         <img src="Web Images/success(2).jpe"alt="Successful dogs"
         srcset="
@@ -259,8 +297,8 @@
         Web Images/tsuccess(2).jpe 800w,
         Web Images/success(2).jpe 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw>
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw">
 
         <img src="Web Images/success(3).jpe" alt="Successful dogs" 
         srcset="
@@ -268,8 +306,8 @@
         Web Images/success(3).jpe 800w,
         Web Images/success(3).jpe 1200w"
         sizes="
-        (max-widt:600px)90vw,
-        (max-width:900px) 45vw",30vw >
+        (max-width:600px)90vw,
+        (max-width:900px) 45vw,30vw" >
         </div>
         <br>
 
@@ -278,7 +316,7 @@
         <h3> Watch the following video to learn more about Paw R Us SA </h3>
         <!--An embeded html code from a Paw R Us SA youtube video -->
        <iframe
-        width="560" height="315" src="https://www.youtube.com/embed/vSdriaY0mBI?si=CtpageapYjpPVK2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+         src="https://www.youtube.com/embed/vSdriaY0mBI?si=CtpageapYjpPVK2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
        </iframe>
        </div>
@@ -286,7 +324,7 @@
        <div class="media-align">
         <h3>Our Location</h3>
        
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.2790431858516!2d28.01372587453467!3d-25.95888727722849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9593d1e7197d8d%3A0x7e4c0caa4fa8c4b2!2sPaws%20R%20Us%20(SA)!5e0!3m2!1sen!2sza!4v1786803456953!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>   
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.2790431858516!2d28.01372587453467!3d-25.95888727722849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9593d1e7197d8d%3A0x7e4c0caa4fa8c4b2!2sPaws%20R%20Us%20(SA)!5e0!3m2!1sen!2sza!4v1786803456953!5m2!1sen!2sza"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>   
       <h4> You can find Paw R Us SA in the following area or laction in South Africa:
         <ul>
        <li>
@@ -310,4 +348,4 @@
      </footer>
      <!--The above are footer navigation links for the other web pages-->
     
-   
+     

@@ -2,11 +2,8 @@ header{
     background-color:  #efcfe3 ;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
-    padding:20px 50px;
-    flex-direction: row;
-    height: 165px;
     gap:20px;
+    flex-wrap: wrap;
     
 }
 header a:hover{
@@ -39,11 +36,9 @@ footer{
     background-color:  #efcfe3 ;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
-    padding:20px 50px;
-    flex-direction: row;
-    height: 95px;
+    height: 100px;
     gap:20px;
+    flex-wrap: wrap;
 }
 footer a:hover{
     text-decoration-style: wavy;
@@ -59,6 +54,16 @@ h1{
     font-family: Arial,sans-serif;
     font-size:40px;
     font-weight: normal;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+iframe{
+    width:100%;
+    max-width:560px;
+    height:315px;
+    aspect-ratio: 16 / 9;
 }
 
 h2{
@@ -80,19 +85,30 @@ h3{
     font-weight: normal; 
 }
 @media screen and (max-width:900px){
-    .adopt-section, .align, .mission-vission, .media, .form{
+    .adopt-section, .align, .mission-vission,.gallery, .media, .form{
         gap:15px;
         padding:15px;
+       
+    }
+    
+     iframe{
+        max-width:100%;
     }
 }
+   
 @media screen and(max-width:600px){
     header{
         flex-direction:column;
     }
-    .adopt-section, .align, .mission-vission, .media, .form{
+    .adopt-section, .align, .mission-vission, .gallery, .media, .form{
         flex-direction: column;
+        padding: 15px;
     }
     iframe{
         max-width:100%;
     }
+    main{
+        padding:15px;
+    }
+    
 }
