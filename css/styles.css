@@ -65,6 +65,15 @@ iframe{
     height:315px;
     aspect-ratio: 16 / 9;
 }
+a {
+    text-decoration-color: plum;
+}
+a  a:hover{
+    text-decoration-color: pink;
+    
+
+}
+
 
 h2{
     color:rebeccapurple;
@@ -100,7 +109,7 @@ h3{
     header{
         flex-direction:column;
     }
-    .adopt-section, .align, .mission-vission, .gallery, .media, .form{
+    .adopt-section, .align, .mission-vission, .gallery, .media, .the-team, .web-align, .form{
         flex-direction: column;
         padding: 15px;
     }

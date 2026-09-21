@@ -23,6 +23,7 @@
            max-width: 1200px;
            margin: 35px auto;
            padding:20px;
+           flex-wrap: wrap;
         } 
         .adopt-section, .statement{
             flex:1;
@@ -72,13 +73,37 @@
             outline:2px ;
             background-color: plum;
         }
+        .web-align{
+         flex-direction: row;
+         display: flex;
+         gap:25px;
+         align-items: center;
+         flex-wrap: wrap;
+         text-align: center;
+         justify-content: center;
+        }
+        .web-align img{
+            align-items: center;
+        }
+        .web-align ul{
+            width: fit-content;
+           margin:0 auto; 
+           text-align: center;
+           list-style-position: inside;
+        }
+        .web-align li{
+            align-items:center;
+            justify-content: center;
+            display: flex;
+        }
         
         </style>  
     </head>
-       <!--The following are header navigation links for the other web pages-->
+     
     
     <body>
          <header> 
+              <!--The following are header navigation links for the other web pages-->
           <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
 
             <a href="about_us.html">About Us</a>
@@ -88,7 +113,7 @@
             
         </header>
         <main>
-        <h1>
+        <h1 style="text-align: center;">
             Paw R Us SA
         </h1>
         <!--Adoption section of the website-->
@@ -103,7 +128,7 @@
            Web Images/adopt me(1)jpe 800w,
           Web Images/adopt me(1).jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
+           (max-width:600px)90vw,
             (max-width:900px) 50vw,40vw"   >
             </div>
 
@@ -127,19 +152,18 @@
            Web Images/dopt me(2)jpe 800w,
           Web Images/dopt me(2).jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
-            (max-width:900px) 45vw", 30vw>
+           (max-width:600px)90vw,
+            (max-width:900px) 45vw, 30vw">
          </div>
 
         </section>
         
         
-        
-     
-          <h2>
+        <h2 style="text-align: center;">
             Become A Donor Today!
 
         </h2>
+        <div class="web-align">
 
         <div class="align">
         <img src="Web Images/donate.jpe" alt="food donations"
@@ -148,8 +172,8 @@
            Web Images/donate.jpe 800w,
           Web Images/donate.jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
-         (max-width:900px) 45vw", 30vw
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
         >
         <img src="Web Images/donate(2).jpe" alt="food donations" 
         srcset="
@@ -157,8 +181,8 @@
            Web Images/donate(2).jpe 800w,
           Web Images/donate(2).jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
-         (max-width:900px) 45vw", 30vw
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
         >
 
         <img src="Web Images/donate(3).jpe" alt="food donations"
@@ -167,23 +191,27 @@
            Web Images/donate(3).jpe 800w,
           Web Images/donate(3).jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
-         (max-width:900px) 45vw", 30vw
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
         >
         </div>
+
 
         <h4> <p>If you have been waiting to donate and are willing to make a difference in the life of the animlas regardlesss the size of the donation you have coming to the correct section of the web page. 
         This part of the web page discusses how potential donors can make donations to the organisation through different alternatives and methods that they may find best suitable for their situation. </p>
         </h4>
+        </div>
         
 
         <!--QR code to scan to pay electronic bank donations-->
         <a href="https://pawsrussa.weebly.com/uploads/2/4/9/6/24967799/4159783.jpg">
-        <h4> Click to scan QR code to donate </h4> </a>
+        <h4 style="text-align: center; color: palevioletred;"> Click to scan QR code to donate </h4> </a>
     
         <!--Volunteer section of the website-->
 
-        <p> <h2> Paw R Us Volunteer Tasks </h2> 
+        <p> <h2 style="text-align: center;"> Paw R Us Volunteer Tasks </h2> 
+
+        <div class="web-align">
         <div class="align">
         <img src="Web Images/volunteer(2).jpe" alt="examples of volunteers volunteering" 
         srcset="
@@ -191,8 +219,8 @@
            Web Images/volunteer(2).jpe 800w,
           Web Images/volunteer(2).jpe 1200w"
           sizes="
-           (max-widt:600px)90vw,
-         (max-width:900px) 45vw", 30vw
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
         >
     
         <ul> <h4>
@@ -202,17 +230,24 @@
           </h4>      
         </ul> 
         </div>
+         </div>
         <br>
+          
+         
 
-         <h4>Fill in the following registration for any of the following reasons listed below:
-         </h4>
-            
-           <ol> <h4>
-          <li type="circle"> Booking an adoption day</li>
-            <li type="circle"> Applying to Volunteer at Paw R Us SA </li>
+
+         <div class="web-align">  
+           <ol> 
+            <h3><p style="text-align: center;">Fill in the following registration for any of the following reasons listed below:</h3></p>
+            <h4>
             <li type="circle"> Enqiry </li>  
-            <li type="circle"> Donation appointment</li>
+          <li type="circle"> Booking an adoption day</li>
+           <li type="circle"> Donation appointment</li>
+            <li type="circle"> Applying to Volunteer at Paw R Us SA </li>
+           
             </h4> </ol>
+            </div>
+            
 
         <section class="form">
                <div class="form-register">
@@ -224,6 +259,9 @@
 
          
              <!--The following is a code used to create forms using html in a website-->
+             <!--Registration section of the website for potential volunteers, donors or people who have questions/enquiries about the organization-->
+
+            
              <h4>
              <form action="#" method="post">
               <label for="name"> Individual Name: </label>
@@ -269,26 +307,7 @@
                </h4>
               </div>
             </section>  
-        
-        
-        <!--Registration section of the website for potential volunteers, donors or people who have questions/enquiries about the organization-->
-        
-
-
-        <!--Donation section of the website-->
-      
-        
-
-     
-        <br>
-        <br>
-
-    
-
-           
-        
-       </main>
-
+        </main>
         
        <footer>
          <a href="get_involved.html">Back to Top</a>
