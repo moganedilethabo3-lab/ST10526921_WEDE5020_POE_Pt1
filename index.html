@@ -2,28 +2,30 @@
 <html>
     <head>
         <style>
-        
-        .paragraph{
-         text-align: left;
-        
-        }
-        .align{
+        .home-align{
+         display:flex;
          flex-direction: row;
          display: flex;
          gap:25px;
          align-items: center;
+         margin: 0 auto;
          flex-wrap: wrap;
-        
-        }
-        .align img{
-         max-width: 1200px;
-         height: auto;
+         justify-content: center;
          width:100%;
+         max-width:1200px;
+         margin-bottom: 10px;
+         margin-top:0;
         }
-        .dog{
-         position: relative;
-         top:-15px;
-        
+        .home-align h4{
+            flex:1;
+            min-width:600px;
+            
+        }
+        .home-align img{
+            flex:1;
+            width:100%;
+            min-width:500px;
+            height:auto
         }
         
         .socials{
@@ -74,12 +76,13 @@
 
         <h2> Introduction to Paw R Us SA </h2>
       
-        <div class="align">
+        <div class="home-align">
     
        <!--The following is an introduction explaining who are Paw R Us SA for people who dont know the NPO-->
         <br>
-        <h4 class="paragraph">
+        <h4 style="text-align: left">
         Paw R Us SA is a pet welfare organisation that was founded in 2018 by a group of pet owners. Our organisation is an animal-focused organisation that mainly operates its activities online through a Facebook account. 
+        <br>
         <br>
         The presence of Paw R Us SAs can be felt online through many social media platforms. 
         Our engagement online is used for two most important things including the following:
@@ -91,7 +94,7 @@
         </ul>
         </h4>
     
-        <div class="dog">
+       
         <img src="Web Images/home.png" alt="Home page image introduction" 
         srcset="
         Web Images/home.jpg 480w,
@@ -100,7 +103,7 @@
         sizes="
         (max-width:600px)90vw,
         (max-width:900px) 45vw,30vw">
-        </div> 
+        
 
         </div>
 
