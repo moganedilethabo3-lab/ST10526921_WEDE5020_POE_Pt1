@@ -167,3 +167,99 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
   </tr>
 </table>
 
+<h1> Website Overview </h1>
+<table>
+  <tr>
+    <td>
+      Tools Used
+    </td>
+    <td>
+      <ul>
+        <li> Visual Studio </li>
+       <li> Web broswer (Edge) </li>
+    </td>
+  </tr>
+
+<tr>
+<td>Website Fuctionalities
+</td>
+<td>
+  <ul>
+ <li> Volunteer registration </li>
+<li> Adoption request/ applications </li>
+<li> Online Donation </li>
+<li> Enquiries form </li>
+<li> Google Maps location </li> 
+    <li> Website device accomodation </li>
+  </ul>
+</td>
+</tr>
+</table>
+
+<h1> ChangeLogs</h1>
+<table>
+  <tr>
+    <td>
+      Part 1
+    </td>
+    <td>
+      <ul>
+        <li> Added more information to my website </li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      Part 2
+    </td>
+    <td>
+      <ul>
+        <li> Created a new readMe file</li>
+        <li> added an external CSS file to my vs code</li>
+        <li> Implemented CSS styling to my website</li>
+        <li> Added more iformation to my readme file explaining and outlining all my changes and activities throughout the POE  </li>
+        <li> Made the website to be accomodative to all devices using breakpoints</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<h1>References</h1>
+<table>
+  <tr>
+    <td>
+      HTML references 
+    </td>
+    <td>
+      <ul>
+        <li>  </li>
+      </ul>
+    </td>
+  </tr>
+
+<tr>
+  <td>
+    Image references 
+  </td>
+  <td>
+    <ul>
+      <li> </li>
+    </ul>
+  </td>
+</tr>
+
+    
+<tr>
+  <td>
+    CSS references
+  </td>
+  <td>
+    <ul>
+      <li> </li>
+    </ul>
+  </td>
+</tr>
+</table>
+
+
