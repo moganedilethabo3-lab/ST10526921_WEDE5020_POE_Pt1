@@ -38,20 +38,75 @@ To ensure consistency in the design of the website the following logo was consis
 <h1>
   Website Webpages Overview
 </h1>
-<table> 
-  <tr>
 
+<table>
+  
+  <tr>
     <td>
      Home Page 
     </td>
      <td>
-The Home Page consists of 
+       <p align="center">
+The Home Page consists of a brief welcome and introduction of the oraginisation for the user to read,as well as the organisation's social linked accounts.
+       </p>
+    </td>
+    </tr>
+    
+  <tr>
+     <td>
+     About Us Page
+     </td>
+     <td>
+         <p align="center">
+     About Us Page talks about the following listed topic:
+           <ul>
+     <li> Paw R Us SA vission and mission </li>
+     <li> Introducing the Paw R Us SA Team </li>
+     <li> Successful adoption discussion </li>
+     <li> Showing all the successful adopted pets </li>
+     <li> Displayig the location of the organisation </li>
+     <li> Displayig a short video about the organisation from Youtube </li>
+           </ul>
+     </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+     Get Involved Page
     </td>
      <td>
-     About Us Page talks about the following listed topic:
-     <li> Paw R Us SA vission and mission </li>
-     <li
+       <p align="center">
+The Get Involoved Page consists of the following discussed topics on the webpage:
+         <ul>
+       <li> Encouraging potential dog owners to come adopt </li>
+       <li> Donations </li>
+     <li> Registration form for voluteering and Enquiries </li> 
+         </ul>
+       </p>
     </td>
-    
-  </tr>
+    </tr>
+
+  <tr>
+    <td>
+     Gallery Page 
+    </td>
+     <td>
+       <p align="center">
+The  Gallery Page consists of the images of the Paw R Us SA's furry family and their relative names for potential owners to browse through them.
+       </p>
+    </td>
+    </tr>
+
+ <tr>
+    <td>
+     Contact Page 
+    </td>
+     <td>
+           <p align="center">
+The Contact Page consists of potential ways users can reach out the organisation in terms of having enquiries or wanting to place an appointment to come and adopt a dog.
+           </p>
+    </td>
+    </tr>
+  
 </table>
