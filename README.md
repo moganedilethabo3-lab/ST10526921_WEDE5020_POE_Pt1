@@ -125,7 +125,6 @@ The Contact Page consists of potential ways users can reach out the organisation
  <td>
       <p align="center"> About Us Page </p>
   <img width="100%" height="355" alt="About Us_Page drawio" src="https://github.com/user-attachments/assets/1a4a022e-bc7d-42b5-83de-30e5741b1118" />
-
     </td>
   
 
@@ -152,6 +151,7 @@ The Contact Page consists of potential ways users can reach out the organisation
 <h4> Disclaimer:</h4> 
 The sitemap was already in the first readMe file but I was not awarded my 5 marks. 
 <br>
+
 <table>
   <tr>
   <td>
@@ -160,7 +160,7 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
     </p>
   </td>
 
-      <td>
+  <td>
       <img width="100%" height="385" alt="SITE-MAP drawio (1)" src="https://github.com/user-attachments/assets/8fe33b8b-387e-4f32-8b4e-5d7051da15c9" />
     </td>
   
