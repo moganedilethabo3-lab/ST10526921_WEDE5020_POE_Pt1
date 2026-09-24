@@ -107,6 +107,63 @@ The  Gallery Page consists of the images of the Paw R Us SA's furry family and t
 The Contact Page consists of potential ways users can reach out the organisation in terms of having enquiries or wanting to place an appointment to come and adopt a dog.
            </p>
     </td>
-    </tr>
-  
+    </tr>  
 </table>
+
+<h1> Website Wirerames </h1>
+
+<table>
+  <tr>
+    
+  <td>
+      <p align="center"> Home Page </p>
+      <img width="100%" height="385" alt="Home_page drawio" src="https://github.com/user-attachments/assets/9e082c6b-c8e3-44e9-87dc-07d97676bb6e"/>
+    </td>
+  
+
+  
+ <td>
+      <p align="center"> About Us Page </p>
+  <img width="100%" height="355" alt="About Us_Page drawio" src="https://github.com/user-attachments/assets/1a4a022e-bc7d-42b5-83de-30e5741b1118" />
+
+    </td>
+  
+
+  
+  <td>
+      <p align="center"> Get Involved Page </p>
+      <img width="100%" height="355" alt="Get_Involved_Page drawio" src="https://github.com/user-attachments/assets/a2ca60ea-7fb5-4eb1-85c0-de193d003c1f" />
+      </td>
+
+  <td>
+      <p align="center"> Gallery Page </p>
+      <img width="100%" height="355" alt="Gallery_Page drawio" src="https://github.com/user-attachments/assets/3ecb8eb0-e5ce-44d0-b576-b5552e4e903f" />
+  </td>
+
+  <td>
+    <p align="center"> Contact Us Page </p>
+    <img width="100%" height="355" alt="Contact Us_Page drawio" src="https://github.com/user-attachments/assets/27da381c-3c8a-4d48-aede-a16d16d79728" />
+  </td>
+  
+  </tr>
+</table>
+
+<h1> Website SiteMape</h1>
+<h4> Disclaimer:</h4> 
+The sitemap was already in the first readMe file but I was not awarded my 5 marks. 
+<br>
+<table>
+  <tr>
+  <td>
+    <p align="center">
+    Website Navigation Site Map
+    </p>
+  </td>
+
+      <td>
+      <img width="100%" height="385" alt="SITE-MAP drawio (1)" src="https://github.com/user-attachments/assets/8fe33b8b-387e-4f32-8b4e-5d7051da15c9" />
+    </td>
+  
+  </tr>
+</table>
+
