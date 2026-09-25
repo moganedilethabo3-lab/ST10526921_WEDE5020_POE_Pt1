@@ -225,6 +225,20 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
   </tr>
 </table>
 
+<h1> How the website looks on different devices </h1>
+<table>
+  <tr>
+    <td> Destop </td>
+    <td> </td>
+  </tr>
+
+<tr>
+  <td> Mobile Device</td>
+  <td> </td>
+</tr>
+</table>
+
+
 <h1>References</h1>
 <table>
   <tr>
@@ -261,5 +275,8 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
   </td>
 </tr>
 </table>
+
+
+
 
 
