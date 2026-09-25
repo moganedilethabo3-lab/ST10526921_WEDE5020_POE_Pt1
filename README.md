@@ -216,10 +216,12 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
     <td>
       <ul>
         <li> Created a new readMe file</li>
+        <li> Oraginsed my POE document to how it should be, more organised and easy to navigate </li> 
         <li> added an external CSS file to my vs code</li>
         <li> Implemented CSS styling to my website</li>
         <li> Added more iformation to my readme file explaining and outlining all my changes and activities throughout the POE  </li>
         <li> Made the website to be accomodative to all devices using breakpoints</li>
+        <li> Added the destop image preview of the website to my readMe file</li>
       </ul>
     </td>
   </tr>
@@ -229,7 +231,8 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
 <table>
   <tr>
     <td> Destop </td>
-    <td> <img width="100%" height="385" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/ebf28910-b762-49da-87ad-b419991fe3ed" />
+    <td> <img width="100%" height="365" alt="image" src="https://github.com/user-attachments/assets/fcb15f44-69f8-4dee-b2e4-2374ccf248da" />
+
 
     
   </tr>
