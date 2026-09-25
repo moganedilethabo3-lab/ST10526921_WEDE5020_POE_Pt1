@@ -229,7 +229,9 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
 <table>
   <tr>
     <td> Destop </td>
-    <td> </td>
+    <td> <img width="100%" height="385" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/ebf28910-b762-49da-87ad-b419991fe3ed" />
+
+    
   </tr>
 
 <tr>
@@ -247,7 +249,8 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
     </td>
     <td>
       <ul>
-        <li>  </li>
+        <li> W3Schools, n.d. HTML tutorial. [Online]  Available at: https://www.w3schools.com/html/[Accessed 11 August 2026].
+ </li>
       </ul>
     </td>
   </tr>
@@ -258,7 +261,9 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
   </td>
   <td>
     <ul>
-      <li> </li>
+      
+ <li> Dev, M., 2025. CSS queries. [Online] 
+Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_querie [Accessed 14 September 2026].</li>
     </ul>
   </td>
 </tr>
@@ -269,9 +274,12 @@ The sitemap was already in the first readMe file but I was not awarded my 5 mark
     CSS references
   </td>
   <td>
-    <ul>
-      <li> </li>
-    </ul>
+  <ul>
+    <li> W3Schools, n.d. CSS Tutorial. [Online] 
+ Available at: https://www.w3schools.com/css/default.asp [Accessed 10 September 2026].</li>
+  <li> Planer, E., 2025. How to view vs code on mobile phone. [Online] Available at: https://www.youtube.com/watch?v=oWEPACmQBFk [Accessed 14 September 2026].</li>
+  </ul>
+  
   </td>
 </tr>
 </table>
