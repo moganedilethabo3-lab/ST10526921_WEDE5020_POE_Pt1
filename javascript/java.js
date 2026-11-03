@@ -1,88 +1,103 @@
-const contact = document.getElementById('contact');contact.addEventListener('submit',function(event){
+const contactForm = document.getElementById("contact");
+if (contactForm) {
+    contact.addEventListener("submit",function(event){
     event.preventDefault();
 
-    const name=document.getElementById('fname').value.trim()
-    const surname=document.getElementById('lname').value.trim()
-    const phone=document.getElementById('phone').value.trim()
-    const email=document.getElementById('email').value.trim()
-    const enquiry=document.getElementById('enquiry').value.trim()
-   
+    const name=document.getElementById('fname').value.trim();
+    const surname=document.getElementById('lname').value.trim();
+    const phone=document.getElementById('phone').value.trim();
+    const email=document.getElementById('email').value.trim();
+    const enquiryField =document.getElementById("enquiry").value.trim() ;
+    const enquiry = enquiryField? enquiryField.value.trim() : "";
+
+    document.querySelectorAll(".error-messge").forEach(function(error){
+        error.textContent="";
+    });
+    let valid = true;
     if(name==""){
-        document.getElementById('fnameError').innerHTML="Enter your first name correctly";
-        return;
+        showError("fnameError", "Please enter your correct name.");valid= false;
     }
 
     if(surname==""){
-        document.getElementById('lnameError').innerHTML="Enter your first surname correctly";
-        return;
+        showError("lnameError", "Please enter your correct surname.");valid= false;
     }
+    
+
 
     if(!/^\d{10}$/.test(phone)){
-        document.getElementById('phoneError').innerHTML="Please ensure your phone number consists of 10 digits only";
-        return;
+       showError("phoneError", "Please enter a valid 10-digit phone number.");valid= false;
     }
 
     if(enquiry==""){
-        document.getElementById('enquiryError').innerHTML="Please type your enquiy for the organisation";
-        return;
+      showError("enquiryError", "Please enter your enquiry.");valid= false;
     }
 
     const emailPattern = /^[^@]+\.[^@]+$/;
     if(!emailPattern.test(email)){
-        document.getElementById('emailError').innerHTML="Enter the correct structured email";
+       showError("emailError", "Please enter a valid email address.");valid= false;
+    }
+    
+    if(!valid){
         return;
     }
 
-
+    alert("Thank You," +name + "! Your information has been successfully submitted");
+    contactForm.requestFullscreen();
 
     
-})
+});
+}
 
-const galleryImages = document.querySelectorAll(".dog-name");
+function showError(errorId, message){
+    const errorElement = document.getElementById(errorId);
+    if (errorElement){
+        errorElement.textContent = message ;
+    }
+}
+
+const galleryImages = document.querySelectorAll("#gallery img, #lane2 img, .align img");
 
 
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightboxImage");
-
 const closeButton = document.getElementById("closeLightbox");
 
 let currentImage = 0;
 
 
 
-galleryImages.forEach(function(image, index) {
+if (galleryImages.length>0 && lightbox && lightboxImage) {
+    galleryImages.forEach(function(image, index) {
+     image.style.cursor ="pointer";
 
     image.addEventListener("click", function() {
 
         currentImage = index;
-
-        lightboxImage.src = image.src;
-        lightboxImage.alt = image.alt;
-
-        lightbox.style.display = "flex";
-
+        dispalyImage();
+        lightbox.style.display ="flex"
     });
 
 });
-nextButton.addEventListener("click", nextImage);
 
-previousButton.addEventListener("click", previousImage);
+  function displayImage(){
+     lightboxImage.src = galleryImages[currentImage].src;
+    lightboxImage.alt = galleryImages[currentImage].alt;
+  }
 
+  if (closeButton){
+    closeButton.addEventListener("click",function(){
+        lightbox.style.display ="none";
+    });
+  }
 
-
-closeButton.addEventListener("click", function() {
-
-    lightbox.style.display = "none";
-
-});
-
-lightbox.addEventListener("click", function(event) {
-
-    if (event.target === lightbox) {
-        lightbox.style.display = "none";
+  lightbox.addEventListener("click", function(event){
+    if (event.target ===lightbox) {
+        lightbox.style.display ="none";
     }
+  });
+}
 
-});
+  
 
 
 
