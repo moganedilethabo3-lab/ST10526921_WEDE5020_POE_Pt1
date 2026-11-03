@@ -18,7 +18,6 @@ header a:visited{
     color: palevioletred;
 }
 
-<<<<<<< HEAD
 a  a:hover{
     text-decoration-style: wavy ;
 }
@@ -28,8 +27,6 @@ a  a:active{
 a  a:visited{
     color: palevioletred;
 }
-=======
->>>>>>> a87eb6ff2ccc72ca64ae386d0f2af2427db06676
 
 nav a:hover{
     text-decoration-color: plum;
@@ -107,7 +104,6 @@ h3{
     font-size:18px;
     font-weight: normal; 
 }
-<<<<<<< HEAD
 small-card{
     background-color: #ffe5ec;
     width: 90%;
@@ -302,8 +298,6 @@ image-slide{
 }
 
 
-=======
->>>>>>> a87eb6ff2ccc72ca64ae386d0f2af2427db06676
 @media screen and (max-width:900px){
     .adopt-section, .align, .home-align, .mission-vission,.gallery, .media, .form{
         gap:15px;
