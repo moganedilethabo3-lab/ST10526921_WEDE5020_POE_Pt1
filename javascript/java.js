@@ -1,27 +1,16 @@
 const contactForm = document.getElementById("contact");
 if (contactForm) {
-<<<<<<< HEAD
     contactForm.addEventListener("submit",function(event){
-=======
-    contact.addEventListener("submit",function(event){
->>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
     event.preventDefault();
 
     const name=document.getElementById('fname').value.trim();
     const surname=document.getElementById('lname').value.trim();
     const phone=document.getElementById('phone').value.trim();
     const email=document.getElementById('email').value.trim();
-<<<<<<< HEAD
     const enquiryField =document.getElementById("enquiry") ;
     const enquiry = enquiryField? enquiryField.value.trim() : "";
 
     document.querySelectorAll(".error-message").forEach(function(error){
-=======
-    const enquiryField =document.getElementById("enquiry").value.trim() ;
-    const enquiry = enquiryField? enquiryField.value.trim() : "";
-
-    document.querySelectorAll(".error-messge").forEach(function(error){
->>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
         error.textContent="";
     });
     let valid = true;
@@ -43,7 +32,6 @@ if (contactForm) {
       showError("enquiryError", "Please enter your enquiry.");valid= false;
     }
 
-<<<<<<< HEAD
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(!emailPattern.test(email)){
        showError("emailError", "Please enter a valid email address.");valid= false;
@@ -54,12 +42,6 @@ if (contactForm) {
         showError("catergoryError", "Please select an enquiry catergory.");
         valid=false;
     }
-=======
-    const emailPattern = /^[^@]+\.[^@]+$/;
-    if(!emailPattern.test(email)){
-       showError("emailError", "Please enter a valid email address.");valid= false;
-    }
->>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
     
     if(!valid){
         return;
@@ -79,7 +61,6 @@ function showError(errorId, message){
     }
 }
 
-<<<<<<< HEAD
 const enquiryType =document.getElementById("catergory");
 const catergoryResponse =document.getElementById("catergoryResponse");
 
@@ -135,48 +116,6 @@ if(enquiryType && catergoryResponse){
         });
     });
   
-=======
-const galleryImages = document.querySelectorAll("#gallery img, #lane2 img, .align img");
-
-
-const lightbox = document.getElementById("lightbox");
-const lightboxImage = document.getElementById("lightboxImage");
-const closeButton = document.getElementById("closeLightbox");
-
-let currentImage = 0;
-
-
-
-if (galleryImages.length>0 && lightbox && lightboxImage) {
-    galleryImages.forEach(function(image, index) {
-     image.style.cursor ="pointer";
-
-    image.addEventListener("click", function() {
-
-        currentImage = index;
-        dispalyImage();
-        lightbox.style.display ="flex"
-    });
-
-});
-
-  function displayImage(){
-     lightboxImage.src = galleryImages[currentImage].src;
-    lightboxImage.alt = galleryImages[currentImage].alt;
-  }
-
-  if (closeButton){
-    closeButton.addEventListener("click",function(){
-        lightbox.style.display ="none";
-    });
-  }
-
-  lightbox.addEventListener("click", function(event){
-    if (event.target ===lightbox) {
-        lightbox.style.display ="none";
-    }
-  });
->>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
 }
 
   
