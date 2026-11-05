@@ -1,6 +1,10 @@
 $(document).ready(function() {
     $("#social-media").hide();
+<<<<<<< HEAD
     $("#follow,#social-button").on("click",function(){
+=======
+    $("#follow","#social-button").on("click",function(){
+>>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
         $("#social-media").slideToggle(600);
     });
 
@@ -34,6 +38,7 @@ $(".faq-question").on("click",function(){
     $(this).toggleClass("active")
 });
 
+<<<<<<< HEAD
 
 const faqSection =[
     {
@@ -110,4 +115,7 @@ if (faqContainer.length >0) {
 
 
 
+=======
+});
+>>>>>>> 98be142dbaf8714f0d3a8eb6ce17a72699d8fe05
 
