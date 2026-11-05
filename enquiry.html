@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <title>
+            Enquiry
+        </title>
+        <meta name="description" content="Individuals are more than welcome to enquire about the organisation and its | Services | Donations | Adoption processes | Volunteering Programme |.">
+
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paw R Us South Africa">
+
+         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="javascript/jquery.js"></script>
+        <script src="javascript/java.js" defer></script>
+        
+          
+
+         <style>
+            .align{
+                align-items: center;
+                justify-content: center;
+                display:flex;
+                flex-direction: column;
+                text-align:center;
+                margin: 0;
+            }
+            .checkBox{
+                display:flex;
+                align-items: center;
+                gap:10px;
+                margin-top: 10px;
+            }
+            checkBox input[type="checkBox"]{
+                width:20px;
+                height:20px;
+                cursor: pointer;
+                accent-color: plum ;
+            }
+            checkBox label{
+                font-size: 10px;
+                cursor: pointer;
+               
+            }
+            .user-enquiry{
+               width: 100%;
+                height: 250px;
+               resize: vertical;
+               box-sizing: border-box;
+            }
+            #catergoryResponse{
+                width:90%;
+                max-width: 600px;
+                padding:15px;
+                margin:10px auto;
+                background-color: #ffe5ef;
+                border-radius: 10px;
+                text-align: center;
+            }
+
+         </style>
+    </head>
+    <body>
+         <header> 
+             <!--The following is the header navigation links for the other web pages-->
+            <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
+           
+            <a href="index.html">Home Page</a>
+            <a href="about_us.html">About Us</a>
+            <a href="get_involved.html">Get involved</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact us</a>
+           
+        
+            
+        </header> 
+        
+       <main  class="align">
+
+        <h1>Paw R Us FAQ </h1>
+        
+        <section class="faq-section">
+            <p>Frequently asked questions about Paw R Us</p>
+            <div id="faq"></div>
+        </section>
+
+      <h1>
+        Enquiry Form
+      </h1>
+        
+        <card>
+        <form id="contact" >
+            <h4>
+           Name: 
+           <input type="text" id="fname" required>
+            <small id="fnameError" class="error-message"></small>
+            <br>
+            <br>
+            Surname: 
+            <input type="text" id="lname" required>
+            <small id="lnameError" class="error-message"></small>
+            <br>
+            <br>
+            Email Address: 
+            <input type="text" id="email" required>
+            <small id="emailError" class="error-message"></small>
+            <br>
+            <br>
+            Cell Number: 
+            <input type="tel" id="phone" maxlength="10" placeholder="0229652389" required>
+            <small id="phoneError" class="error-message"></small>
+            <br>
+            <br>
+
+            Enquiry Catergory
+            <select id="catergory" required>
+                <option value="">Select an enquiry catergory</option>
+                <option value="services">Services</option>
+                <option value="adoption">Adoption</option>
+                <option value="donations">Donations</option>
+                <option value="volunteering">Volunteering</option>
+            </select>
+            <small id="catergoryError" class="error-message"></small>
+
+            <div id="catergoryResponse"></div>
+            
+            <table>
+                <tr>
+                    <td> 
+                        <label for="enquiry"> Enquiry to Orgainistion </label>
+                    </td>
+
+                    <td>
+                        <textarea id="enquiry" name="enquiry" class="user-enquiry" rows="5" 
+                      placeholder="Type your enquiry here..." required>
+                          </textarea>
+                    </td>
+                </tr>
+            </table>
+         </h4>
+
+         <table>
+            <tr>
+                <td>
+                   <input type="checkbox" id="confirm" name="confirm" required>  
+                </td>
+                <td>
+                     <label for="confirm">
+                    Company reserves the right to store information for statistical reasons
+                 </label>
+                </td>
+            </tr>
+            
+         </table>
+            
+
+            <br>
+            <button type="submit" class="button"><h3 style="color:white">
+                Submit</h3></button>
+            
+            <br>
+            <button class="clear-btn" type="reset"> <h3 style="color:white"> Clear</h3></button>
+            
+        </form>
+        </card>
+       
+       </main>
+        
+      <footer>
+       
+      <a href="enquiry.html">Back to Top</a>
+      <a href="index.html">Home Page</a>
+     <a href="about_us.html">About Us</a>
+     <a href="get_involved.html">Get involved</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="contact.html">Contact us</a>
+       <!--The above are footer navigation links for the other web pages-->  
+          
+    </footer>
+    </body>
+</html>
