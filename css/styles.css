@@ -400,6 +400,60 @@ image-slide{
     transition: background-color 0.5s ease;
 }
 
+.text-captcha{
+     max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid ;
+    border-radius: 12px;
+    background-color: plum;
+    text-align: center;
+    box-sizing: border-box;
+}
+.captcha-refresh{
+     padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+.text-captcha input{
+     max-width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.captcha-refresh:hover{
+    background-color: palevioletred;
+}
+.error-message {
+    display: block;
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.captcha-text{
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 250px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-style: italic;
+    color: black;
+    user-select: none;
+}
+
+
+
+
 
 @media screen and (max-width:900px){
     .adopt-section, .align, .home-align, .mission-vission,.gallery, .media, .form{

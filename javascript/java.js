@@ -1,5 +1,38 @@
 const contactForm = document.getElementById("contact");
 if (contactForm) {
+    const captchaText = document.getElementById("text-captcha");
+    const captchaInput =document.getElementById("captchaInput");
+    const refresh =document.getElementById("refresh");
+
+    let generatedCaptcha="";
+    function generatedCaptcha(){
+        const characters ="ABCDEFGHJKLMNOPQRSTUVWXY23456789";
+        generatedCaptcha = "";
+        
+        for (let i = 0; i <6; i ++){
+            const randomIndex =Math.floor(Math.random() * characters.length);
+            generatedCaptcha += characters[randomIndex];
+        }
+        if (captchaText) {
+            captchaText.textContent= generatedCaptcha;
+        }
+        if(captchaInput){
+            captchaInput.value = "";
+        }
+        showError("captchaError", "");
+        }
+
+        if(captchaText && captchaInput) {
+            generatedCaptcha();
+        }
+
+        if (refresh){
+            refresh.addEventListener("click",function(){
+                generatedCaptcha();
+            });
+        }
+
+
     contactForm.addEventListener("submit",function(event){
     event.preventDefault();
 
