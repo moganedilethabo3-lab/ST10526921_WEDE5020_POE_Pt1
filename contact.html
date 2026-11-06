@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <title>
+            Contact Us | Get in Touch with Paw R Us SA 
+        </title>
+        <meta name="description" content="Contact Paw R Us SA using one of the alternative options provided to conatct the organisation about anything related to the NPO and relevant to the organisation.">
+
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paw R Us South Africa">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="javascript/jquery.js"></script>
+        <script src="javascript/java.js" defer></script>
+        <style>
+            .align{
+                align-items: center;
+                justify-content: center;
+                display:flex;
+                flex-direction: column;
+                text-align:center;
+                margin: 0;
+            }
+            .li{
+              align-items:center;
+              justify-content: center;
+               display: flex;
+            }
+              .checkBox{
+                display:flex;
+                align-items: center;
+                gap:10px;
+                margin-top: 10px;
+            }
+            checkBox input[type="checkBox"]{
+                wisth:20px;
+                height:20px;
+                cursor: pointer;
+                accent-color: plum ;
+            }
+            checkBox label{
+                font-size: 10px;
+                cursor: pointer;
+               
+            }
+           
+            
+
+
+        </style> 
+    </head>
+     
+    <body>
+        <!--The following are header navigation links for the other web pages-->
+    
+        <header> 
+           <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
+           <a href="index.html">Home Page</a> 
+           <a href="about_us.html">About Us</a>
+          <a href="get_involved.html">Support</a>
+            <a href="gallery.html">Gallery</a>
+             <a href="enquiry.html">Enquire</a>
+            
+        </header>
+
+        <main class="align">
+        <h1>
+            Paw R Us SA
+        </h1>
+        <!--The following in this web page are various and alternative ways users could contact the organisation-->
+
+        <h2> How to contact Paw R Us SA </h2>
+        <h4>
+          To contact Paw R Us SA you can the following to reach our organisation for any enquiries you may possibly have:
+            <ul>
+            <li class="li">
+                Call : 083 518 0447
+            </li>
+            <br>
+
+            <li class="li">
+                Email: 
+                <br> <li class="li"> <a href="mailto:woof@pawsrus.co.za"> woof@pawsrus.co.za </a> </li>
+            </li>
+            <br>
+            </ul>
+
+            <ul>
+              Visit one of our following social media accounts:
+              <li class="li"> <a href="https://www.facebook.com/PawsRUS.SA/" >Facebook</a> </li>
+              <li class="li" > <a href="https://www.instagram.com/pawsrus_sa/">Instagram</a> </li> 
+            
+             <br>
+
+              <li class="li"> 
+             Paw R Us SA location link: <a href="https://maps.app.goo.gl/vGNzW3QHffw3pA4Y6"> Google Maps</a>
+               </li>
+            </ul>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.103107788369!2d28.0937759!3d-25.9974396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9593d1e7197d8d%3A0x7e4c0caa4fa8c4b2!2sPaws%20R%20Us%20(SA)!5e0!3m2!1sen!2sza!4v1793361514066!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                
+            </iframe>
+ 
+        </h4>
+    
+        <h2> Please Do Not hesitate to contact us.</h2>
+
+        <h1> 
+            Contact Form
+        </h1>
+
+
+        <card>
+        <form id="contact" >
+            <h4>
+            Name: 
+            <input type="text" id="fname" required>
+            <small id="fnameError"></small>
+            <br>
+            <br>
+            Surname: 
+            <input type="text" id="lname" required>
+            <small id="lnameError"></small>
+            <br>
+            <br>
+            Email Address: 
+            <input type="text" id="email" required>
+            <small id="emailError"></small>
+            <br>
+            <br>
+            Cell Number:
+           <input type="tel" id="phone" maxlength="10" placeholder="0229652389" required>
+            <small id="phoneError"></small>
+            <br>
+            <br>
+            Reason for Contact:  
+            <select required>
+                <option value=""> Select Value</option>
+                <option value="donation Delivery"> Donation Delivery </option>
+                <option value="appointment"> Book Appointment</option>
+                 <option value="adoption"> Adopt a Dog</option>
+                  <option value="animal rescue">  Bring Rescued animal </option>
+            </select>
+            </h4>
+
+           <table>
+            <tr>
+                <td>
+                   <input type="checkbox" id="confirm" name="confirm" required>  
+                </td>
+                <td>
+                     <label for="confirm">
+                    Company reserves the right to store information for statistical reasons
+                 </label>
+                </td>
+            </tr>
+            
+         </table>
+         
+            <br>
+ <button type="submit" class="button"><h3 style="color:white"> Submit
+     
+    <br>
+     <button class="clear-btn" type="reset"> <h3 style="color:white"> Clear</h3></button>
+            
+    </h3>
+    </button>
+        </form>
+        </card>
+        
+        </main>
+
+      <footer>
+         <a href="contact.html">Back to Top</a>
+         <a href="index.html">Home Page</a>
+          <a href="about_us.html">About Us</a>
+         <a href="get_involved.html">Support</a>
+            <a href="gallery.html">Gallery</a>
+        <a href="enquiry.html">Enquire</a>
+      </footer>
+        <!--The above are footer navigation links for the other web pages-->
+        
+    </body>
+
+   
+
+</html>

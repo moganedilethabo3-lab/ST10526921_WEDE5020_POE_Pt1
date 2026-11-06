@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <title>
+            Gallery | Meet the Paw R Us Family
+        </title>
+        <meta name="description" content="Meet Paw R Us SA's furry friends! Explore through the organisation's dog gallery album of dogs who are part of the Paw R Us family.">
+
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paw R Us South Africa">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="javascript/jquery.js"></script>
+        <script src="javascript/java.js" defer></script>
+        <script src="javascript/lightbox.js" defer></script>
+        
+
+        <style>
+        .align{
+         flex-direction: row;
+         display: flex;
+         gap:25px;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content: center;
+        
+
+        }
+        .dog-name:hover{
+          transform:scale(1.05)
+        }
+
+       
+       
+        </style>
+        
+          <link rel="stylesheet" href="css/styles.css">
+    </head>
+      
+    
+       
+    <body>
+        <header>
+          <!--The following are header navigation links for the other web pages--> 
+            <div> <img src="Web Images/logo.png" alt="organisation logo" height="325px" width="255px"> </div>
+           
+            <a href="index.html">Home Page</a>
+            <a href="about_us.html">About Us</a>
+       <a href="get_involved.html">Support</a>
+             <a href="enquiry.html">Enquire</a>
+            <a href="contact.html">Contact us</a>
+           
+        </header>
+        <main>
+        <h1>
+            Paw R Us SA
+        </h1>
+        <!--The following is a web page consisting of Paw R Us SA's furry family photobook -->
+        <h2 style="text-align: center;"> Come meet Paw R Us SA's furry family!</h2>
+       
+        <h4 style="text-align: center;">
+        <p>These are our amazing Furry Family that have been a huge part of Paw R Us SAs journey and lives. 
+       <p> Our Furry Family are not just pets but are the beloved members our organisation and the sole reason behind the organisation's motivation. </p>
+         Do take your time and show appreciation for Paw R Us SA Furry Family.</p>
+        </h4>
+
+        <section class="dog-search" style="text-align: center;">
+          <h2>Find your Furry Friend!</h2>
+          <label for="dogSearch">Search Dog Name</label>
+          <br>
+          <input type="search"
+          id="dogSearch"
+          placeholder="Enter the Dog's name"
+          autocomplete="off">
+
+          <button type="button" id="search" style="cursor: pointer;">Search</button>
+          <button type="button" id="dogClear" style="cursor: pointer;">Clear Search</button>
+          
+          <h4 id="searchMessage"></h4>
+
+          </section>
+
+
+        <button id="openGallery">
+          View Gallery 
+        </button>
+
+        
+        <div class="align" id="gallery">
+          <div class="dog-name">
+          
+        <img src="Web Images/gallery(1).jpe" alt="image of dog" tabindex="0" role="button"
+        srcset="
+            Web Images/gallery(1).jpe 480w,
+           Web Images/gallery(1).jpe 800w,
+          Web Images/gallery(1).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;"> Alfredo</h4>
+        </div>
+        
+        <div class="dog-name">
+       <img src="Web Images/gallery(2).jpe" alt="image of dog" 
+       srcset="
+            Web Images/gallery(2).jpe 480w,
+           Web Images/gallery(2).jpe 800w,
+          Web Images/gallery(2).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+       >
+       <h4 style="text-align: center;">Lawrence</h4>
+        </div>
+    
+       <div class="dog-name">
+        <img src="Web Images/gallery(3).jpe" alt="image of dog" 
+        srcset="
+            Web Images/gallery(3).jpe 480w,
+           Web Images/gallery(3).jpe 800w,
+          Web Images/gallery(3).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;">Linda and James</h4>
+        </div>
+          
+        <div class="dog-name">
+        <img src="Web Images/gallery(4).jpe" alt="image of dog" 
+        srcset="
+            Web Images/gallery(4).jpe 480w,
+           Web Images/gallery(4).jpe 800w,
+          Web Images/gallery(4).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+         <h4 style="text-align: center;">Candice</h4>
+        </div>
+        </div>
+
+        <br>
+       
+        
+
+        
+       <button id="gallery2">
+          View Gallery 
+        </button>
+
+        <div class="align" id="lane2">
+          <div class="dog-name">
+        <img src="Web Images/gallery(5).jpe" alt="image of dog" 
+        srcset="
+            Web Images/gallery(5).jpe 480w,
+           Web Images/gallery(5).jpe 800w,
+          Web Images/gallery(5).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;">Blake</h4>
+        </div>
+         
+        <div class="dog-name">
+        <img src="Web Images/gallery(6).jpg" alt="image of dog" 
+        srcset="
+            Web Images/gallery(6).jpe 480w,
+           Web Images/gallery(6).jpe 800w,
+          Web Images/gallery(6).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;">Sassy</h4>
+        </div>
+        
+        <div class="dog-name">
+       <img src="Web Images/gallery(7).jpe" alt="image of dog"
+        srcset="
+            Web Images/gallery(7).jpe 480w,
+           Web Images/gallery(7).jpe 800w,
+          Web Images/gallery(7).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;"> Missy and Lacy</h4>
+        </div>
+
+        <div class="dog-name">
+        <img src="Web Images/gallery(8).jpe" alt="image of dog" 
+         srcset="
+            Web Images/gallery(8).jpe 480w,
+           Web Images/gallery(8).jpe 800w,
+          Web Images/gallery(8).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+        >
+        <h4 style="text-align: center;">Henry</h4>
+        </div>
+
+        </div>
+
+        
+
+        
+
+        <h2 style="text-align: center;"> Remember To come on over and get yourself a furry friend!! </h2>
+        
+        
+
+        <div class="align">
+       <img src="Web Images/gallery.jpe" alt="image of dog" 
+       srcset="
+            Web Images/gallery.jpe 480w,
+           Web Images/gallery.jpe 800w,
+          Web Images/gallery.jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+       >
+
+       <img src="Web Images/gallery(9).jpe" alt="image of dog"
+       srcset="
+            Web Images/gallery(9).jpe 480w,
+           Web Images/gallery(9).jpe 800w,
+          Web Images/gallery(9).jpe 1200w"
+          sizes="
+           (max-width:600px)90vw,
+         (max-width:900px) 45vw, 30vw"
+       >
+       </div>
+       
+     </main>
+
+        
+        <footer>
+         <a href="gallery.html">Back to Top</a>
+         <a href="index.html">Home Page</a>
+          <a href="about_us.html">About Us</a>
+        <a href="get_involved.html">Support</a>
+            <a href="enquiry.html">Enquire</a>
+            <a href="contact.html">Contact us</a>
+            
+        </footer>
+        <!--The above are footer navigation links for the other web pages-->
+
+        <div id="lightbox">
+     <button id="closeLightbox" type="button">&times;</button>
+     <img id="lightboxImage" src="" alt="Enlarged gallery image">
+    </div>
+
+        
+    </body>
+
+      
+    
+
+</html>
